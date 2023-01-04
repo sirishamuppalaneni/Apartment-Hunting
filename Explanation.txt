@@ -1,0 +1,20 @@
+Below is the approach I have followed to achieve the given coding challenge;
+
+
+Step1 : Initialize nearestBlockIndex of first block and the nearestdistance maximum possible value 
+
+Step2 : Loop through each block
+
+Step3 : Initialize the maxDistance to walk from this block to 0
+
+Step4 : Loop through each requirements
+
+Step5 : If requirements are not present in the current block, Then iterate until find the nearest block that is having requirements
+
+Step6 : If the requirements are not present in any subsequent blocks, Set the distance to the maximum possible value
+
+Step7 : Update the maximum distance to walk for this block if necessary
+
+Step8 : If the maximum distance to walk for this block is less than the nearestDistance , Then update the  nearestDistance and nearestBlockIndex
+
+Step9 : Finally it returns to the nearestBlockIndex.
